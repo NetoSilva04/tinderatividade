@@ -84,27 +84,21 @@ class TinderLoginScreen extends StatelessWidget {
     return Padding(
       padding: const EdgeInsets.symmetric(horizontal: 30),
       child: SizedBox(
-        width: 300, // Definindo uma largura fixa para o botão
+        width: 300,
         child: OutlinedButton(
           onPressed: () {},
           style: OutlinedButton.styleFrom(
-            padding: const EdgeInsets.symmetric(
-              vertical: 12,
-            ), // Menor altura para o botão
+            padding: const EdgeInsets.symmetric(vertical: 12),
             side: const BorderSide(color: Colors.white, width: 2),
             shape: RoundedRectangleBorder(
               borderRadius: BorderRadius.circular(30),
             ),
           ),
           child: Row(
-            mainAxisAlignment: MainAxisAlignment.start, // Ícone no início
+            mainAxisAlignment: MainAxisAlignment.start,
             children: [
-              Icon(
-                icon,
-                color: Colors.white,
-                size: 24,
-              ), // Tamanho fixo para o ícone
-              const SizedBox(width: 15), // Espaço entre ícone e texto
+              Icon(icon, color: Colors.white, size: 24),
+              const SizedBox(width: 15),
               Expanded(
                 child: Text(
                   text,
