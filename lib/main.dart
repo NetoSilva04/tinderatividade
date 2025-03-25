@@ -102,7 +102,7 @@ class TinderLoginScreen extends StatelessWidget {
               Expanded(
                 child: Text(
                   text,
-                  textAlign: TextAlign.center, // Texto centralizado
+                  textAlign: TextAlign.center,
                   style: const TextStyle(color: Colors.white, fontSize: 16),
                 ),
               ),
